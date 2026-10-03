@@ -3,6 +3,7 @@
 Dashboard interativo de vendas de uma concessionária Porsche, em **um único arquivo HTML** (sem build, sem backend).
  
 🔗 **Dashboard publicada:** https://nickolasrodolphi.github.io/porsche_dashboard/ 
+
 📦 **Código:** https://github.com/nickolasrodolphi/porsche_dashboard/blob/main/index.html 
  
 > ⚠️ Os dados são **fictícios**, gerados por código para fins de demonstração.
