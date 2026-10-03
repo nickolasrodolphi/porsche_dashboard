@@ -2,8 +2,8 @@
  
 Dashboard interativo de vendas de uma concessionária Porsche, em **um único arquivo HTML** (sem build, sem backend).
  
-🔗 **Dashboard publicada:** https://SEU-USUARIO.github.io/NOME-DO-REPO/  <!-- PREENCHER após ativar o GitHub Pages -->
-📦 **Código:** https://github.com/SEU-USUARIO/NOME-DO-REPO  <!-- PREENCHER -->
+🔗 **Dashboard publicada:** https://nickolasrodolphi.github.io/porsche_dashboard/ 
+📦 **Código:** https://github.com/nickolasrodolphi/porsche_dashboard/blob/main/index.html 
  
 > ⚠️ Os dados são **fictícios**, gerados por código para fins de demonstração.
  
@@ -40,7 +40,7 @@ Decisões que a IA tomou por conta própria, por falta de informação no prompt
 - **Meta fixa** de R$ 12 mi por vendedor.
 - **Foto do modelo campeão:** substituída por uma silhueta em SVG, porque a página não carrega imagens externas.
 - **Chart.js** via CDN para os gráficos.
-<!-- PREENCHER: se você iterou o prompt fora deste histórico, descreva aqui o que mudou entre a 1ª e a última versão. -->
+
  
 ## 3. Tratamento da base antes de ir para a IA
  
@@ -57,17 +57,7 @@ Para usar **dados reais**, a base precisaria de uma linha por venda com as colun
 3. remover duplicatas e vendas canceladas;
 4. tratar valores ausentes;
 5. anonimizar dados pessoais de clientes (LGPD) e, se for compartilhar, dos vendedores.
+
 ## 4. Ferramenta de IA utilizada
  
 **Claude (Anthropic), no chat do claude.ai**, com criação de arquivos e publicação de página (artifact). **Não** foi usado ChatGPT com Canvas, e **não** foi usado um agente com skill específica: o HTML foi escrito diretamente pelo modelo a partir do prompt.
- 
-<!-- PREENCHER: se você também usou outra ferramenta, ajuste esta seção. -->
- 
-## 5. Como rodar e adaptar
- 
-Abra o `index.html` no navegador (precisa de internet para carregar o Chart.js). Para dados reais, edite no `<script>`:
- 
-- `DATA`: array de vendas, no formato `{ model, city, year, pay, seller, price }`;
-- `META`: meta individual dos vendedores, em reais.
-
-Endereco publicado: https://nickolasrodolphi.github.io/porsche_dashboard/
